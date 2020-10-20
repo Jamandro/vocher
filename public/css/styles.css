@@ -1,0 +1,82 @@
+body {
+    background-color: #eee;
+    font-size: 14px;
+}
+
+.wrapper {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px #999;
+    color: #666;
+    margin: 10px;
+    padding: 40px;
+}
+
+.wrapper h1 {
+    border-bottom: solid 1px #666;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+}
+
+.wrapper div {
+    text-align: center;
+}
+
+.wrapper .btn {
+    font-size: 12px;
+    padding: 5px 10px;
+}
+
+#dyntable th {
+    text-align:center;
+}
+
+#dyntable th:nth-child(1),
+#dyntable th:nth-child(4) {
+    width: 20%;
+}
+
+#dyntable th:nth-child(2) {
+    width: 10%;
+}
+
+#dyntable th:nth-child(3) {
+    width: 50%;
+}
+
+#dyntable tr td:nth-child(2) {
+    text-align: center;
+}
+
+#dyntable tr td:nth-child(4) {
+    text-align: right;
+}
+
+.dynatable-sort-header,
+.dynatable-sort-header:hover {
+    color: #666;
+}
+
+#dyntable .fa-check {
+    color: #090;
+}
+
+#dyntable .fa-times {
+    color: #d00;
+}
+
+.clear {
+    clear: both;
+    height: 0;
+    width: 100%;
+}
+
+div.inputwrapper {
+    max-width: 50%;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+label.error {
+    color: #f00;
+}
